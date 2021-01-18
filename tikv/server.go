@@ -955,3 +955,7 @@ func extractRegionError(err error) *errorpb.Error {
 	}
 	return nil
 }
+
+func (svr *Server) GetAllWaiting(c context.Context, request *kvrpcpb.GetAllWaitingRequest) (*kvrpcpb.GetAllWaitingResponse, error) {
+	panic("implement me")
+}
